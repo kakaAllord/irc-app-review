@@ -52,7 +52,7 @@ export const SEED_ITEMS: SeedItem[] = [
       "No — from another country → country + time of stay in Arusha + how often they visit Arusha",
     ],
   },
-  { text: "**Phone number** — country code, with a flag." },
+  { text: "**Phone number** — country code." },
   {
     text: "**How did you hear about IRCA?** — “Other” should have a typing option. The dashboard should also carry the metrics of this, so the church knows what works more.",
   },
