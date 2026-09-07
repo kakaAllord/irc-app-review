@@ -129,7 +129,6 @@ export default function Board({ notes }: { notes: Note[] }) {
               <Collapsible
                 title="Reviews and suggestions"
                 note={`${notes.length} ${notes.length === 1 ? "note" : "notes"} on the board.`}
-                defaultOpen
               >
                 {notes.length === 0 ? (
                   <p className="rounded-card border-[1.5px] border-dashed border-line px-5 py-7 text-center text-ink-faint">
