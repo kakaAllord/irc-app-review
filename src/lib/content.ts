@@ -48,8 +48,8 @@ export const SEED_ITEMS: SeedItem[] = [
   {
     text: "**Do you live in Arusha?** — split “No” into two:",
     sub: [
-      "No — from another region → region + stay in Arusha + how often they visit Arusha",
-      "No — from another country → country + stay in Arusha + how often they visit Arusha",
+      "No — from another region → region + time of stay in Arusha + how often they visit Arusha",
+      "No — from another country → country + time of stay in Arusha + how often they visit Arusha",
     ],
   },
   { text: "**Phone number** — country code, with a flag." },
