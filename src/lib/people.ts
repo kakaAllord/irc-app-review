@@ -1,7 +1,7 @@
 /** Everyone invited to review. Each gets an ink colour used across the board. */
 export const PEOPLE = [
-  { name: "Pastor Sarah Ndosi", ink: "#7A3B8F" },
   { name: "Pastor Ndelimbi Ndosi", ink: "#1F5C4A" },
+  { name: "Pastor Sarah Ndosi", ink: "#7A3B8F" },
   { name: "Madam CK", ink: "#B23A16" },
   { name: "Brother Gideon", ink: "#2F4858" },
   { name: "Kaka Allord", ink: "#6B5B2E" },
