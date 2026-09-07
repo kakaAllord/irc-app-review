@@ -29,6 +29,6 @@ export function initialsOf(name: string): string {
 export const MOODS = [
   { key: "Blessed", echo: "Amen to that." },
   { key: "Good", echo: "Good to hear." },
-  { key: "Busy", echo: "Thanks for giving it a look." },
+  { key: "Busy", echo: "Thanks for giving a look." },
   { key: "Tiring", echo: "Take it slow. GOD has got you." },
 ] as const;
