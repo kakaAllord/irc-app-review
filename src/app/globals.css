@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #ece4d4;
+  --color-paper-deep: #e0d7c3;
+  --color-card: #fbf8f1;
+  --color-ink: #262219;
+  --color-ink-soft: #665e4f;
+  --color-ink-faint: #9a9081;
+  --color-line: #d6cbb4;
+  --color-flame: #b23a16;
+  --color-flame-deep: #8f2c0f;
+  --color-olive: #5e6b4f;
+
+  --font-serif: var(--font-fraunces), Georgia, "Iowan Old Style", "Times New Roman", serif;
+
+  --radius-card: 0.75rem;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    background-image:
+      radial-gradient(circle at 15% 8%, rgba(255, 255, 255, 0.55) 0, transparent 45%),
+      radial-gradient(circle at 88% 82%, rgba(120, 104, 70, 0.1) 0, transparent 48%);
+    background-attachment: fixed;
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2.5px solid var(--color-flame);
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+
+  textarea,
+  input,
+  button {
+    font: inherit;
+    color: inherit;
+  }
+}
+
+@utility field {
+  width: 100%;
+  border-radius: 0.625rem;
+  border: 1.5px solid var(--color-line);
+  background-color: #fff;
+  padding: 0.75rem 0.875rem;
+  line-height: 1.55;
+  resize: vertical;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
