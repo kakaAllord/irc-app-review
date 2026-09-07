@@ -67,10 +67,10 @@ export const SEED_ITEMS: SeedItem[] = [
     text: "A way to know the new converts and follow them up in the section of foundation classes after they are saved.",
   },
   {
-    text: "Create a page for members. For those whose data is not fully filled in, a way should be found so they can be known and reminded to fill in their information.",
+    text: "Create a way to identify the members who didn’t finish the registration, so they can be known and reminded to fill in their information.",
   },
   {
-    text: "Make the onboarding process user friendly and not tiresome while still achieving the same value — there is a lot to be filled just for someone to finish the registration.",
+    text: "Make the onboarding process user friendly and not tiresome while still achieving the same value.",
   },
   { text: "Add pastors’ contacts." },
 ];
